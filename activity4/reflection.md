@@ -1,3 +1,0 @@
-# Self-Reflection Answer
-
-## Offloading the budget check to Python logic increases reliability because the program enforces the rule directly instead of trusting the LLM to remember and follow it. Even if a user tries prompt injection or the model makes a mistake, the Python code will still reject any booking that exceeds the $200 budget. This makes the system more secure, predictable, and consistent.
